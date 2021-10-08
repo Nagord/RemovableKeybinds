@@ -1,14 +1,14 @@
-﻿using PulsarPluginLoader;
+﻿using PulsarModLoader;
 
 namespace RemovableKeybinds
 {
-    public class Plugin : PulsarPlugin
+    public class Mod : PulsarMod
     {
-        public override string Version => "1.0.0";
+        public override string Version => "1.0.1";
 
         public override string Author => "Dragon";
 
-        public override string LongDescription => "Removes keybind if escape is typed";
+        public override string LongDescription => "Sets keybind to NONE when Escape is pressed.";
 
         public override string Name => "RemovableKeybinds";
 

@@ -8,10 +8,10 @@ namespace RemovableKeybinds
     {
         static void Prefix(ref KeyCode key)
         {
-            PulsarPluginLoader.Utilities.Logger.Info("Running prefix");
+            PulsarModLoader.Utilities.Logger.Info("Running prefix");
             if(key == KeyCode.Escape)
             {
-                PulsarPluginLoader.Utilities.Logger.Info("Matched check");
+                PulsarModLoader.Utilities.Logger.Info("Matched check");
                 key = KeyCode.None;
             }
         }
