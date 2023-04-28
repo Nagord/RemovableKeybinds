@@ -5,8 +5,8 @@
 
 
 ## Information
-For Game Version 1.14.0 
-For PML Version 0.10.0 
+For Game Version 1.14.0  
+For PML Version 0.10.0  
 Mod Version 1.0.1  
 Developed by: Dragon  
 Host/Client Requirements: Client
